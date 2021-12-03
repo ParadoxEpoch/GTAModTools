@@ -52,3 +52,17 @@ As far as I can tell from a quick assessment in Ghidra, the following C header f
 * Gameface\Plugins\SanAndreas\Source\SanAndreas\Private\FrontEnd\CommandList_SA.h
 
 If you find a way around this roadblock please get in touch on [Twitter](https://twitter.com/ParadoxEpoch) or by submitting an issue to this repo.
+
+## Support
+
+If you'd like to support ongoing development of this and other open-source projects, a donation would be very much appreciated. I accept direct crypto donations via any of the addresses below or through [Coinbase Commerce](https://commerce.coinbase.com/checkout/bb4f7665-bfdc-4c22-9fc8-78299010b1c8).
+
+**BTC:** bc1q6kqv5u2368j4l00rls5frg78wt7m6vf7a50sa7
+
+**ETH:** 0x704fb3fD106D00e6D78880C25139141C4B24DFd7
+
+**DOGE:** D6MZp3HMZQA6gFBhmcmYs6AjytXwQJ4bYj
+
+**LTC:** ltc1qhqgsnzwumxm7q3u3m4rj0zcvwcvcvhqqrke07p
+
+**XMR:** 8429Hzck9gdX43MF9NzNGjaeGdKBwjVTjgGDQfXKV6WxfSGubxuBi6mEh2nDWwXtAZUjMejV4Pamr5SfYp96QJZNEQecMqS
