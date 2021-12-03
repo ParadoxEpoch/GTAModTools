@@ -9,7 +9,7 @@ Most of these tools can also be used with non-Switch versions of the game to cre
 
 Please Note: This repo does not contain _any_ proprietary code or other assets from Rockstar Games/Take-Two Interactive or Nintendo. It's simply a collection of open source tools that can be used to harness the data that was included with every original copy of the game sold on the Nintendo eShop and Rockstar Games Launcher. This project is intended for research purposes.
 
-## Tools
+## :toolbox: Tools
 
 * **Extract_NSP.bat** Extract a Switch NSP. _Requires keys.txt/keys.dat from an actual Nintendo Switch_
 
@@ -17,7 +17,7 @@ Please Note: This repo does not contain _any_ proprietary code or other assets f
 
 * **CreateMod_GTAxx.bat** Configurable script to compile scripts, create a new mod archive and optionally auto-install it to your game install directory.
 
-## Preparation
+## :electric_plug: Preparation
 
 Assuming you're starting from scratch with no game files and no knowledge of extracting NSP's or PAK files, here's a quick run-down on how to get started:
 
@@ -33,7 +33,7 @@ Assuming you're starting from scratch with no game files and no knowledge of ext
 
 6. Congratulations, you're now ready to make mods! When you run one of the CreateMod batch files, everything inside of the _staging_ folder will be packaged into your mod, so you can delete anything that you don't plan on modding now to save space. If you want to mod scripts, you'll need to keep the _Gameface\Content\OriginalData\*\Scripts\\_ folder, and the _\*.ide_, _miss2.exe_ & _gta3/gta\_vc/gta.dat_ files from _Gameface\Content\OriginalData\*\data\\_.
 
-## Usage
+## :information_source: Usage
 
 Run _CreateMod\_xx.bat_ (where xx refers to the target game) to automatically compile the game's mission scripts, package the _staging_ directory into a PAK file and optionally move it into your game's installation directory. In an ideal scenario, after running this script you should be able to launch your modded game without having to do anything else.
 
@@ -41,7 +41,7 @@ The _staging_ folder is where you work on your mod. Anything inside that folder 
 
 Before running any of the CreateMod scripts, open them in a text editor first and take a look at the configuration section near the top. This contains some important variables which need to be set or can be altered to change the behaviour of the script. These include the ability to skip script compilation, skip PAK building, disable auto-installation and more.
 
-## Known Issues
+## :bangbang:	Known Issues
 
 Sadly, the script compiler for San Andreas is not currently working. It seems to be missing some necessary files that were not left in the final build of the game.
 
@@ -53,7 +53,7 @@ As far as I can tell from a quick assessment in Ghidra, the following C header f
 
 If you find a way around this roadblock please get in touch on [Twitter](https://twitter.com/ParadoxEpoch) or by submitting an issue to this repo.
 
-## Support
+## :heart: Support
 
 If you'd like to support ongoing development of this and other open-source projects, a donation would be very much appreciated. I accept direct crypto donations via any of the addresses below or through [Coinbase Commerce](https://commerce.coinbase.com/checkout/bb4f7665-bfdc-4c22-9fc8-78299010b1c8).
 
